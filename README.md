@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @mbaronif
-- 👀 I’m interested in languages, books and movies
-- 🌱 I’m currently learning Java Script and Japanese 😁
-- 💞️ I’m looking to collaborate on translation and writing projects and JS projects where a newbies could contribute and grow
+- 👀 I’m interested in languages, books, movies and board games
+- 🌱 I’m currently learning Java Script, Python and Japanese 😁
+- 💞️ I’m looking for projects where I can collaborate with translation and writing, besides JS/Python projects where a newbie could contribute and grow
 - 📫 You can reach me here or by e-mail: mabaronif@gmail.com
 
 (Still learning, so thanks for the patience 😄)
