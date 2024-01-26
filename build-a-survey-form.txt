@@ -1,0 +1,138 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Book Club Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <h1 id="title">Book Club Cafe</h1>
+  <p id="description">This is the Book Club project. Every month we will gather together in a fun meeting to discuss literature and books. Help us to improve and choose the next books!</p>
+
+<form id="survey-form">
+  <fieldset>
+  <legend>Basic info</legend>
+    <label for="name" id="name-label">Name: </label><input id="name" type="text" placeholder="Enter your name" required/>
+    <label for="email" id="email-label">Email: </label> <input id="email" type="email" placeholder="Enter your email" required/>
+    <label for="number" id="number-label">Age: </label><input id="number" type="number" min="15" max="120" placeholder="Enter your age" required />
+</fieldset>
+
+<fieldset>
+  <legend>Date info</legend>
+    <label for="dropdown">Best time to meet:</label>
+      <select id="dropdown"><br>
+        <option value="">Choose one option</option>
+        <option value="1">Morning</option>
+        <option value="2">Afternoon</option>
+        <option value="3">Evening</option>
+      </select><br>
+   
+    <label for="week">Best day of the week:</label><br>
+      <input id="week" type="checkbox" value="Mon" class="inline" /> Monday<br>
+      <input id="week" type="checkbox" value="Tue" class="inline" /> Tuesday<br>      
+      <input id="week" type="checkbox" value="Wed" class="inline" /> Wednesday<br>
+      <input id="week"  type="checkbox" value="Thu" class="inline" /> Thursday<br>
+      <input id="week" type="checkbox" value="Fri" class="inline" /> Friday<br>
+      <input id="week" type="checkbox" value="Sat" class="inline" /> Saturday<br>
+      <input id="week"  type="checkbox" value="Sun" class="inline" /> Sunday
+</fieldset>
+
+<fieldset>
+    <legend>Book genre:</legend>
+      <label for="mystery"><input id="mystery" name="book-genre" type="radio"  value="Mystery" class="inline"  /> Mystery</label>
+      <label for="romance"><input id="romance" name="book-genre" type="radio" value="Romance" class="inline" /> Romance<label/>
+      <label for="sci-fi"><input id="sci-fi" name="book-genre" type="radio" value="Sci-fi" class="inline" /> Sci-fi</label>
+      <label for="fantasy"><input id="fantasy" name="book-genre" type="radio" value="Fantasy" class="inline" /> Fantasy</label>
+      <label for="comic"><input id="comic" name="book-genre" type="radio" value="Comic" class="inline" /> Comic</label>
+</fieldset>
+
+<fieldset>
+  <legend>Your voice</legend>
+    <label for="comment">Leave a comment:</label><br>
+    <textarea id="comment" name="comment" rows="5" cols="40" placeholder="Let us know what is in your mind."></textarea>
+</fieldset>
+<input id="submit" type="submit"  value="Submit" />
+</form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #99c9ff;
+  font-size: 16px;
+  font-family: times;
+//background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg)
+}
+
+h1 {
+  margin: 1em auto;
+  text-align: center;
+//color: white;
+}
+
+p {
+  margin: 1em auto;
+  text-align: center;
+//color: white;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-widht: 300px;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+fieldset {
+  border-color: #0053b3;
+  padding: 1rem;
+  background-color: #99c9ff;
+  }
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 1px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #00bfff;
+  border: 1px solid #0053b3;
+  color: #0053b3;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.1em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 1em;
+  font-size: 1rem;
+  background-color: #00bfff;
+  border-color: #0053b3;
+  min-width: 300px;
+}
+
+** end of undefined **
+
